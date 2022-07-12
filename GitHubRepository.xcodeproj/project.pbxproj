@@ -19,10 +19,6 @@
 
 /* Begin PBXFileReference section */
 		AC3BDFA0B675B1A44CE2E689 /* Pods_GitHubRepository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubRepository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8364B7B287BDC2900A9C81C /* Traits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Traits.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		D8364B7C287BEB9800A9C81C /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		D8364B7E287BF6F100A9C81C /* FilteringOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilteringOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		D8364B7F287C02B200A9C81C /* TranformingOperatios.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TranformingOperatios.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D8364B80287C0DE300A9C81C /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
 		D8364B82287C0EDE00A9C81C /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
 		D8364B84287C132500A9C81C /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
@@ -32,7 +28,6 @@
 		D87D2BA128782C5900E1AABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D87D2BA428782C5900E1AABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D87D2BA628782C5900E1AABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D87D2BAC28782E5800E1AABC /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E6F787BAFE851A4266E3A4DD /* Pods-GitHubRepository.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepository.debug.xcconfig"; path = "Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository.debug.xcconfig"; sourceTree = "<group>"; };
 		F33F8A692ABC89891163DE6D /* Pods-GitHubRepository.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepository.release.xcconfig"; path = "Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,18 +51,6 @@
 				F33F8A692ABC89891163DE6D /* Pods-GitHubRepository.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		D8364B7D287BF6BE00A9C81C /* Playground */ = {
-			isa = PBXGroup;
-			children = (
-				D87D2BAC28782E5800E1AABC /* Observable.playground */,
-				D8364B7B287BDC2900A9C81C /* Traits.playground */,
-				D8364B7C287BEB9800A9C81C /* Subjects.playground */,
-				D8364B7E287BF6F100A9C81C /* FilteringOperators.playground */,
-				D8364B7F287C02B200A9C81C /* TranformingOperatios.playground */,
-			);
-			path = Playground;
 			sourceTree = "<group>";
 		};
 		D87D2B8C28782C5700E1AABC = {
@@ -96,7 +79,6 @@
 				D8364B80287C0DE300A9C81C /* RepositoryListViewController.swift */,
 				D8364B84287C132500A9C81C /* Repository.swift */,
 				D8364B82287C0EDE00A9C81C /* RepositoryListCell.swift */,
-				D8364B7D287BF6BE00A9C81C /* Playground */,
 				D87D2BA128782C5900E1AABC /* Assets.xcassets */,
 				D87D2BA328782C5900E1AABC /* LaunchScreen.storyboard */,
 				D87D2BA628782C5900E1AABC /* Info.plist */,

@@ -111,15 +111,15 @@ extension RepositoryListViewController {
     refreshControl.rx
       .controlEvent(.valueChanged)
       .subscribe{ [weak self] _ in
-                  guard let self = self else { return }
-                  self.fetchRepositories(of: self.organization)
+        guard let self = self else { return }
+        self.fetchRepositories(of: self.organization)
       }
       .disposed(by: disposeBag)
     
     repositories
       .bind(to: tableView.rx.items(cellIdentifier: "RepositoryListCell", cellType: RepositoryListCell.self)) { _, item, cell in
         cell.repository = item
-    }
+      }
       .disposed(by: disposeBag)
   }
 }

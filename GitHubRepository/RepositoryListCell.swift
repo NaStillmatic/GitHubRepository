@@ -1,5 +1,5 @@
 //
-//  RepostitoryListCell.swift
+//  RepositoryListCell.swift
 //  GitHubRepository
 //
 //  Created by HwangByungJo  on 2022/07/11.
